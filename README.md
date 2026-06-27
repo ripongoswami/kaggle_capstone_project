@@ -1,107 +1,119 @@
-# EduVerse AI
+# 🚀 EduVerse AI: The Future of Adaptive Learning
 
-EduVerse AI is a premium, AI-native adaptive learning platform. A team of four specialized Google Gemini agents (Planner, Tutor, Quiz, Research) collaborates to build and continuously improve a personalized learning ecosystem from a single goal entry.
+<div align="center">
+  <img src="../assets/home.png" alt="EduVerse AI Home" width="100%">
+  <br/>
+  <p><b>A multi-agent, personalized AI learning platform powered by Google Gemini 2.5 Flash</b></p>
+</div>
 
-## Tech Stack
+<div align="center">
+  <img src="../assets/fullpage.png" alt="EduVerse AI Home" width="100%">
+</div>
 
-- **Frontend**: Next.js 15, React 19, Tailwind CSS v4, Framer Motion, Recharts
-- **Backend**: FastAPI, SQLite, SQLAlchemy
-- **AI Orchestration**: Google Gemini 2.5 Flash via `google-genai`
-- **MCP Servers**: Search (Tavily), YouTube, PDF Extractor
+## 🌟 Overview
+EduVerse AI transcends traditional Learning Management Systems (LMS). It is a **premium, AI-native adaptive ecosystem** where a coordinated team of four specialized Google Gemini agents (Planner, Tutor, Quiz, and Research) collaborate dynamically. From a single goal entry, the system generates a fully personalized curriculum, interactive study notes, dynamic assessments, and curated external resources.
 
-## Folder Structure
+---
 
+## 🏆 Key Features & Workflows
+
+### 1️⃣ Intelligent Onboarding & Goal Setting
+Simply tell the AI what you want to learn, your current skill level, and how much time you have. 
+<img src="../assets/onboarding.png" alt="Onboarding" width="80%">
+
+### 2️⃣ Multi-Agent Orchestration
+Our architecture utilizes four distinct Gemini Agents that work in sequence to build your universe of knowledge.
+<img src="../assets/agentProcess.png" alt="Agent Process" width="80%">
+
+### 3️⃣ Command Center Dashboard
+A sleek, glassmorphic dashboard tracking your learning velocity, career readiness, study streaks & best actions.
+<img src="../assets/dashboard.png" alt="Dashboard" width="80%">
+
+### 4️⃣ Adaptive Roadmap
+Your curriculum isn't static. It adapts based on your quiz performance. Fail a concept, and the Planner agent automatically injects remedial lessons.
+<img src="../assets/roadmap.png" alt="Roadmap" width="80%">
+
+### 5️⃣ AI Tutor Console
+Engage in real-time SSE-streamed conversations with your context-aware Tutor Agent for deep concept exploration.
+<img src="../assets/aitutor.png" alt="AI Tutor" width="80%">
+
+### 6️⃣ Dynamic Assessments
+Quizzes are generated on-the-fly based on the lesson's exact study notes.
+<img src="../assets/quiz.png" alt="Quiz" width="80%">
+
+### 7️⃣ Curated Resources & Career Paths
+The Research Agent scours the web (via Tavily MCP) to find the best external articles, videos, and documentation.
+<img src="../assets/resourse.png" alt="Resources" width="80%">
+
+### 8️⃣ Progress Analytics & Insights
+Track your learning progress with detailed analytics and insights, including study streaks, best actions, and career readiness.
+<img src="../assets/progress.png" alt="Progress" width="80%">
+
+### 9️⃣ Profile Page
+Learn About Current Profile & Suggestions 
+<img src="../assets/profile.png" alt="Profile" width="80%">
+
+### 🔟 Settings & Profile Managements
+Manage your profile, settings, and preferences.
+<img src="../assets/settings.png" alt="Settings" width="80%">
+
+---
+
+## ⚙️ Tech Stack
+- **Frontend**: Next.js 15, React 19, Tailwind CSS v4, Framer Motion, Recharts, Three.js
+- **Backend**: FastAPI (Clean Architecture), SQLite, SQLAlchemy
+- **AI/LLM**: Google Gemini 2.5 Flash (`google-genai`)
+- **MCP Integrations**: Tavily (Search), YouTube, PDF Extractors
+
+---
+
+## 🚀 Quick Setup & Installation
+
+Follow these precise steps to get EduVerse AI running locally. 
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/ripongoswami/kaggle_capstone_project.git
+cd kaggle_capstone_project
 ```
-eduverse/
-├── backend/
-│   ├── app/
-│   │   ├── main.py             # FastAPI entry point
-│   │   ├── api/                # HTTP routers
-│   │   ├── core/               # config, security, logging
-│   │   ├── database/           # session, seed
-│   │   ├── middleware/
-│   │   ├── models/
-│   │   ├── repositories/
-│   │   ├── schemas/
-│   │   ├── services/           # business logic
-│   │   ├── agents/             # Planner, Tutor, Quiz, Research, Orchestrator
-│   │   └── mcp/                # Search, PDF, YouTube MCP servers
-│   └── requirements.txt
-├── frontend/
-│   └── src/
-│       ├── app/                # Next.js App Router pages
-│       ├── components/         # AuthGuard, Sidebar, UI widgets
-│       ├── lib/                # constants
-│       └── styles/
-├── docs/                       # Architecture and design documents
-├── scripts/                    # start.sh, seed_db.py, reset_db.py
-├── .env.example
-└── README.md
+
+### 2. Environment Variables
+Copy the example environment file and add your API keys:
+```bash
+cp .env.example .env
 ```
-
-## Local Setup
-
-### 1. Environment Variables
-
-Copy `.env.example` to `.env` and fill in your API keys:
-
+Inside `.env`, configure:
 ```env
 GEMINI_API_KEY=your_gemini_api_key_here
 TAVILY_API_KEY=your_tavily_api_key_here
 
-# Set to false to use real Gemini API calls (requires valid GEMINI_API_KEY)
-# Keep as true to run the app with demo data — no API keys needed
+# Set to false for real AI generation (requires API keys above)
+# Keep as true to run using mock/demo data for instant evaluation
 USE_MOCK_AGENTS=true
 ```
+*(Get a free Gemini API key from [Google AI Studio](https://aistudio.google.com/))*
 
-### 2. Backend
-
+### 3. Start the Backend (FastAPI)
+Open a new terminal window:
 ```bash
-cd eduverse/backend
+cd kaggle_capstone_project/backend
 pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8000
 ```
+*Note: The backend auto-creates SQLite tables and seeds a demo user (`student@eduverse.ai` / `Password123`) on startup.*
 
-The backend auto-creates SQLite tables and seeds a demo user on first run.
-
-**Default demo account:** `student@eduverse.ai` / `Password123`
-
-### 3. Frontend
-
+### 4. Start the Frontend (Next.js)
+Open another terminal window:
 ```bash
-cd eduverse/frontend
-npm install
+cd kaggle_capstone_project/frontend
+npm install #if this dosent works use "npm install --force"
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+### 5. Access the Platform
+Navigate to **[http://localhost:3000](http://localhost:3000)** in your browser!
 
-### 4. Start Both Together (Linux/Mac/WSL)
+> **Linux/Mac Shortcut**: You can run both servers simultaneously using: `./scripts/start.sh`
 
-```bash
-./scripts/start.sh
-```
-
-## How It Works
-
-1. **Register** → redirected to `/onboarding`
-2. **Onboarding** → enter your goal, skill level, and daily study time; four agents run sequentially:
-   - `PlannerAgent` builds the roadmap and milestones
-   - `TutorAgent` generates study notes per lesson
-   - `QuizAgent` creates assessments per lesson
-   - `ResearchAgent` finds resources and career paths
-3. **Dashboard** shows your command center: progress, notes, quizzes, resources, career readiness
-4. **Tutor** (`/tutor`) — SSE streaming chat with lesson context
-5. **Quiz** (`/quiz`) — submit answers; if score < 60%, the Planner inserts revision lessons and the Tutor + Research agents generate remedial content automatically
-6. **Resources** (`/resources`) — search with cache
-7. **Settings** (`/settings/security`) — enter your own Gemini and Tavily API keys
-
-## API Keys (Optional)
-
-The app ships with `USE_MOCK_AGENTS=true` so it works out of the box with demo data.
-
-To enable real AI responses, set `USE_MOCK_AGENTS=false` in `.env` and provide a valid `GEMINI_API_KEY`. Get one free at [aistudio.google.com](https://aistudio.google.com).
-
-For real web search results in resources, also add a `TAVILY_API_KEY` from [tavily.com](https://tavily.com).
-
-Users can also add their own keys per-account under `/settings/security` → Test Connection.
+---
+*Built with ❤️ for the Kaggle Capstone Project*
