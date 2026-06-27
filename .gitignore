@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+ENV/
+env/
+.env
+
+# Database
+*.db
+*.sqlite3
+
+# Node / Frontend
+node_modules/
+.next/
+out/
+build/
+dist/
+.eslintcache
+*.log
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+
+#documentation
+docs/

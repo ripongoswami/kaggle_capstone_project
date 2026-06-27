@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FFFFFF;
+  --card: #F8FAFC;
+  --primary: #2563EB;
+  --accent: #16A34A;
+  --warning: #D97706;
+  --danger: #DC2626;
+  --text: #111827;
+  --text-muted: #6B7280;
+  --border: #E5E7EB;
+  --progress-track: #F3F4F6;
+  --secondary: #F3F4F6;
+}
+
+.dark {
+  --background: #0B1020;
+  --card: #111827;
+  --primary: #3B82F6;
+  --accent: #22C55E;
+  --warning: #F59E0B;
+  --danger: #EF4444;
+  --text: #F8FAFC;
+  --text-muted: #9CA3AF;
+  --border: #1F2937;
+  --progress-track: #1E293B;
+  --secondary: #1E293B;
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-card: var(--card);
+  --color-primary: var(--primary);
+  --color-primary-foreground: #FFFFFF;
+  --color-accent: var(--accent);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-border: var(--border);
+  --color-progress-track: var(--progress-track);
+  --color-secondary: var(--secondary);
+  
+  --font-sans: "Inter", system-ui, sans-serif;
+  
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  body {
+    background-color: var(--background);
+    color: var(--text);
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+}
+
+/* Glassmorphism custom classes */
+.glass-panel {
+  background: var(--card);
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.dark .glass-panel {
+  background: rgba(17, 24, 39, 0.7);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+.glass-card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card-hover:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary);
+  box-shadow: 0 10px 25px -5px rgba(99, 102, 241, 0.2);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+}

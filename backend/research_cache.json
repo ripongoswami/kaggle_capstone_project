@@ -1,0 +1,512 @@
+{
+  "docs::Python Web Developer official documentation reference guide::Beginner": [
+    {
+      "title": "The Python Tutorial",
+      "type": "Docs",
+      "url": "https://docs.python.org/3/tutorial/",
+      "description": "This official tutorial is the best starting point for beginners to learn the core Python language concepts, which are fundamental for web development.",
+      "relevance_score": 1.0,
+      "author": "Python Software Foundation",
+      "level": "Beginner",
+      "duration": "Several hours",
+      "source_domain": "docs.python.org"
+    },
+    {
+      "title": "Welcome to Python.org Documentation",
+      "type": "Docs",
+      "url": "https://www.python.org/doc",
+      "description": "The central hub for all official Python documentation, providing access to language references, tutorials, and guides essential for any Python developer.",
+      "relevance_score": 1.0,
+      "author": "Python Software Foundation",
+      "level": "Beginner",
+      "source_domain": "python.org"
+    },
+    {
+      "title": "The Hitchhiker\u2019s Guide to Python!",
+      "type": "Docs",
+      "url": "https://docs.python-guide.org",
+      "description": "A comprehensive, community-driven guide to best practices, tools, and common patterns in the Python ecosystem, highly recommended for practical development.",
+      "relevance_score": 1.0,
+      "author": "Kenneth Reitz and Contributors",
+      "level": "Beginner",
+      "source_domain": "docs.python-guide.org"
+    },
+    {
+      "title": "Django Documentation",
+      "type": "Docs",
+      "url": "https://docs.djangoproject.com/en/stable/",
+      "description": "The official and comprehensive documentation for Django, a high-level Python web framework that encourages rapid development and clean, pragmatic design.",
+      "relevance_score": 1.0,
+      "author": "Django Software Foundation",
+      "level": "Beginner",
+      "source_domain": "docs.djangoproject.com"
+    },
+    {
+      "title": "Flask Documentation",
+      "type": "Docs",
+      "url": "https://flask.palletsprojects.com/en/latest/",
+      "description": "The official documentation for Flask, a lightweight WSGI web application framework, ideal for beginners due to its simplicity and flexibility.",
+      "relevance_score": 1.0,
+      "author": "Pallets Community",
+      "level": "Beginner",
+      "source_domain": "flask.palletsprojects.com"
+    },
+    {
+      "title": "FastAPI Documentation",
+      "type": "Docs",
+      "url": "https://fastapi.tiangolo.com/",
+      "description": "The official documentation for FastAPI, a modern, fast (high-performance) web framework for building APIs with Python 3.7+ based on standard Python type hints.",
+      "relevance_score": 1.0,
+      "author": "Sebasti\u00e1n Ram\u00edrez",
+      "level": "Beginner",
+      "source_domain": "fastapi.tiangolo.com"
+    },
+    {
+      "title": "Requests: HTTP for Humans\u2122",
+      "type": "Docs",
+      "url": "https://requests.readthedocs.io/en/latest/",
+      "description": "The official documentation for the Requests library, an elegant and simple HTTP library for Python, essential for making web requests in your applications.",
+      "relevance_score": 1.0,
+      "author": "Kenneth Reitz and Contributors",
+      "level": "Beginner",
+      "source_domain": "requests.readthedocs.io"
+    },
+    {
+      "title": "Gunicorn Documentation",
+      "type": "Docs",
+      "url": "https://gunicorn.org/",
+      "description": "The official documentation for Gunicorn, a Python WSGI HTTP Server for UNIX, which is commonly used to deploy Python web applications in production.",
+      "relevance_score": 1.0,
+      "author": "Benoit Chesneau and Contributors",
+      "level": "Beginner",
+      "source_domain": "gunicorn.org"
+    },
+    {
+      "title": "Uvicorn Documentation",
+      "type": "Docs",
+      "url": "https://www.uvicorn.org/",
+      "description": "The official documentation for Uvicorn, an ASGI web server implementation for Python, often used with modern async frameworks like FastAPI.",
+      "relevance_score": 1.0,
+      "author": "Tom Christie and Contributors",
+      "level": "Beginner",
+      "source_domain": "uvicorn.org"
+    },
+    {
+      "title": "Git Documentation",
+      "type": "Docs",
+      "url": "https://git-scm.com/doc",
+      "description": "The official documentation for Git, the distributed version control system, which is indispensable for managing code in any development project.",
+      "relevance_score": 1.0,
+      "author": "Git Community",
+      "level": "Beginner",
+      "source_domain": "git-scm.com"
+    },
+    {
+      "title": "Docker Documentation",
+      "type": "Docs",
+      "url": "https://docs.docker.com/",
+      "description": "The official documentation for Docker, a platform for developing, shipping, and running applications in containers, crucial for modern web deployment.",
+      "relevance_score": 1.0,
+      "author": "Docker Inc.",
+      "level": "Beginner",
+      "source_domain": "docs.docker.com"
+    },
+    {
+      "title": "Nginx Documentation",
+      "type": "Docs",
+      "url": "https://www.nginx.com/resources/wiki/start/",
+      "description": "Official documentation for Nginx, a powerful web server and reverse proxy, often used in front of Python web applications for performance and security.",
+      "relevance_score": 1.0,
+      "author": "Nginx Inc.",
+      "level": "Beginner",
+      "source_domain": "nginx.com"
+    }
+  ],
+  "resources::Python Web Developer tutorial video article::Beginner": [
+    {
+      "title": "Python Web Development Tutorials",
+      "type": "Article",
+      "url": "https://realpython.com/tutorials/web-dev",
+      "description": "A comprehensive collection of tutorials covering various aspects of Python web development, suitable for beginners to intermediate learners.",
+      "relevance_score": 1.0,
+      "author": "Real Python",
+      "level": "Beginner",
+      "duration": "Varies (collection)",
+      "source_domain": "realpython.com"
+    },
+    {
+      "title": "Python for Web Development \u2013 Crash Course [API, SQL, Flask]",
+      "type": "YouTube",
+      "url": "https://www.youtube.com/watch?v=WNvxR8RFzBg",
+      "description": "This crash course introduces the basics of using Python for web development, covering APIs, SQL, and the Flask framework through short projects.",
+      "relevance_score": 1.0,
+      "author": "freeCodeCamp.org",
+      "level": "Beginner",
+      "duration": "1 hour 45 minutes",
+      "source_domain": "youtube.com"
+    },
+    {
+      "title": "The Python Tutorial",
+      "type": "Docs",
+      "url": "https://docs.python.org/3/tutorial/index.html",
+      "description": "The official Python tutorial, designed for programmers new to Python, offering a solid foundation in the language directly from the source.",
+      "relevance_score": 1.0,
+      "author": "Python Software Foundation",
+      "level": "Beginner",
+      "duration": "Self-paced (extensive)",
+      "source_domain": "docs.python.org"
+    },
+    {
+      "title": "Learn web development",
+      "type": "Docs",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn",
+      "description": "The definitive guide to core web technologies (HTML, CSS, JavaScript), essential for any web developer to understand how the frontend works.",
+      "relevance_score": 1.0,
+      "author": "Mozilla MDN",
+      "level": "Beginner",
+      "duration": "Self-paced (extensive)",
+      "source_domain": "developer.mozilla.org"
+    },
+    {
+      "title": "Python for Web Development",
+      "type": "Article",
+      "url": "https://www.geeksforgeeks.org/python/python-web-development",
+      "description": "An introductory article explaining how Python is used in web development, its frameworks, and key concepts for building dynamic applications.",
+      "relevance_score": 0.98,
+      "author": "GeeksforGeeks",
+      "level": "Beginner",
+      "duration": "10 min read",
+      "source_domain": "geeksforgeeks.org"
+    },
+    {
+      "title": "Python Tutorial",
+      "type": "Article",
+      "url": "https://www.w3schools.com/python",
+      "description": "A very beginner-friendly tutorial for learning the basics of Python, including how it can be used for web applications, with interactive examples.",
+      "relevance_score": 0.95,
+      "author": "W3Schools",
+      "level": "Beginner",
+      "duration": "Self-paced (many short sections)",
+      "source_domain": "w3schools.com"
+    },
+    {
+      "title": "Google's Python Class",
+      "type": "Article",
+      "url": "https://developers.google.com/edu/python",
+      "description": "A free class from Google for people with a little programming experience, covering basic Python concepts and some advanced topics, providing a solid foundation.",
+      "relevance_score": 0.92,
+      "author": "Google for Developers",
+      "level": "Beginner",
+      "duration": "Self-paced (multiple modules)",
+      "source_domain": "developers.google.com"
+    },
+    {
+      "title": "Web Development - Full Stack Python",
+      "type": "Article",
+      "url": "https://www.fullstackpython.com/web-development.html",
+      "description": "An overview of Python web development, covering frameworks, tools, and deployment, providing a good starting point for understanding the ecosystem.",
+      "relevance_score": 0.9,
+      "author": "Matt Makai",
+      "level": "Beginner",
+      "duration": "15 min read",
+      "source_domain": "fullstackpython.com"
+    },
+    {
+      "title": "Getting Started with Python Web Development",
+      "type": "Article",
+      "url": "https://dev.to/codewithfaraz/getting-started-with-python-web-development-421b",
+      "description": "An introductory guide for beginners on how to start with Python web development, outlining necessary tools and initial steps to build your first project.",
+      "relevance_score": 0.83,
+      "author": "CodeWithFaraz",
+      "level": "Beginner",
+      "duration": "10 min read",
+      "source_domain": "dev.to"
+    },
+    {
+      "title": "A Complete Guide to Flexbox",
+      "type": "Article",
+      "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+      "description": "An essential guide to Flexbox for responsive web design, crucial for any web developer to master layout and positioning on the frontend.",
+      "relevance_score": 0.81,
+      "author": "CSS-Tricks",
+      "level": "Beginner",
+      "duration": "20 min read",
+      "source_domain": "css-tricks.com"
+    }
+  ],
+  "courses::Python Web Developer online course tutorial freeCodeCamp Coursera Udemy::Beginner": [
+    {
+      "title": "The Odin Project: Full Stack Python Path",
+      "type": "Course",
+      "url": "https://www.theodinproject.com/paths/full-stack-python",
+      "description": "A comprehensive, free, and project-based curriculum designed to take a beginner through all the necessary steps to become a full-stack Python web developer, covering Python, Django, databases, and front-end essentials.",
+      "relevance_score": 1.0,
+      "author": "The Odin Project",
+      "level": "Beginner",
+      "duration": "6-12 months (self-paced)",
+      "source_domain": "theodinproject.com"
+    },
+    {
+      "title": "freeCodeCamp.org: Scientific Computing with Python Certification",
+      "type": "Course",
+      "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/",
+      "description": "This certification teaches fundamental Python programming concepts through five hands-on projects, providing a strong base for any Python development, including web development.",
+      "relevance_score": 1.0,
+      "author": "freeCodeCamp.org",
+      "level": "Beginner",
+      "duration": "300 hours",
+      "source_domain": "freecodecamp.org"
+    },
+    {
+      "title": "Programming for Everybody (Getting Started with Python)",
+      "type": "Course",
+      "url": "https://www.coursera.org/learn/python",
+      "description": "An excellent introductory course to Python programming from the University of Michigan, perfect for absolute beginners to build a solid foundation before diving into web frameworks. Available for audit.",
+      "relevance_score": 1.0,
+      "author": "University of Michigan (Charles Severance)",
+      "level": "Beginner",
+      "duration": "19 hours",
+      "source_domain": "coursera.org"
+    },
+    {
+      "title": "Python for Beginners - Full Course",
+      "type": "Course",
+      "url": "https://www.youtube.com/watch?v=eWRfhZUzrAc",
+      "description": "A highly-rated, comprehensive YouTube course by Programming with Mosh that covers Python fundamentals from scratch, ideal for beginners looking for a clear and engaging introduction.",
+      "relevance_score": 1.0,
+      "author": "Programming with Mosh",
+      "level": "Beginner",
+      "duration": "4 hours",
+      "source_domain": "youtube.com"
+    },
+    {
+      "title": "Khan Academy: Intro to HTML/CSS: Making webpages",
+      "type": "Course",
+      "url": "https://www.khanacademy.org/computing/computer-programming/html-css",
+      "description": "Essential for any web developer, this course teaches the foundational languages for structuring and styling web content, crucial for building the front-end of Python web applications.",
+      "relevance_score": 1.0,
+      "author": "Khan Academy",
+      "level": "Beginner",
+      "duration": "10 hours",
+      "source_domain": "khanacademy.org"
+    },
+    {
+      "title": "CS50's Web Programming with Python and JavaScript",
+      "type": "Course",
+      "url": "https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript",
+      "description": "Building on CS50's Introduction to Computer Science, this course dives into web app design with Python (Django) and JavaScript, offering a rigorous, project-based approach. Available for audit.",
+      "relevance_score": 1.0,
+      "author": "Harvard University (David J. Malan)",
+      "level": "Intermediate",
+      "duration": "12 weeks (6-9 hours/week)",
+      "source_domain": "edx.org"
+    },
+    {
+      "title": "The Complete Python Bootcamp From Zero to Hero in Python",
+      "type": "Course",
+      "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+      "description": "One of the most popular and highly-rated Python courses on Udemy, offering a comprehensive introduction to Python programming with many exercises and projects.",
+      "relevance_score": 0.98,
+      "author": "Jose Portilla",
+      "level": "Beginner",
+      "duration": "22 hours",
+      "source_domain": "udemy.com"
+    },
+    {
+      "title": "MIT OpenCourseWare: Introduction to Computer Science and Programming in Python",
+      "type": "Course",
+      "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/",
+      "description": "A rigorous academic introduction to Python programming and computational thinking, providing a strong theoretical foundation for aspiring developers.",
+      "relevance_score": 0.95,
+      "author": "MIT OpenCourseWare",
+      "level": "Beginner",
+      "duration": "10 weeks",
+      "source_domain": "ocw.mit.edu"
+    },
+    {
+      "title": "LinkedIn Learning: Python for Web Development Essential Training",
+      "type": "Course",
+      "url": "https://www.linkedin.com/learning/python-for-web-development-essential-training",
+      "description": "A structured course covering how to use Python for web development, including an introduction to frameworks like Django and Flask, suitable for beginners with basic Python knowledge.",
+      "relevance_score": 0.91,
+      "author": "Bill Weinman",
+      "level": "Beginner",
+      "duration": "3 hours",
+      "source_domain": "linkedin.com"
+    },
+    {
+      "title": "Pluralsight: Python Fundamentals",
+      "type": "Course",
+      "url": "https://www.pluralsight.com/courses/python-fundamentals",
+      "description": "This course provides a solid foundation in Python programming, covering syntax, data structures, and object-oriented concepts, preparing learners for more advanced web development topics.",
+      "relevance_score": 0.9,
+      "author": "Robert Smallshire",
+      "level": "Beginner",
+      "duration": "6 hours",
+      "source_domain": "pluralsight.com"
+    }
+  ],
+  "books::best books to learn Python Web Developer programming::Beginner": [
+    {
+      "title": "Automate the Boring Stuff with Python",
+      "type": "Book",
+      "url": "https://automatetheboringstuff.com/",
+      "description": "An excellent, practical introduction to Python for absolute beginners, teaching core concepts by building useful automation scripts. A free online version is available.",
+      "relevance_score": 1.0,
+      "author": "Al Sweigart",
+      "level": "Beginner",
+      "source_domain": "automatetheboringstuff.com"
+    },
+    {
+      "title": "Python Crash Course, 2nd Edition",
+      "type": "Book",
+      "url": "https://nostarch.com/pythoncrashcourse2e",
+      "description": "A fast-paced, project-based introduction to Python programming, including a dedicated section on building a basic Django web application.",
+      "relevance_score": 1.0,
+      "author": "Eric Matthes",
+      "level": "Beginner",
+      "source_domain": "nostarch.com"
+    },
+    {
+      "title": "Django for Beginners: Build websites with Python & Django",
+      "type": "Book",
+      "url": "https://djangoforbeginners.com/",
+      "description": "A highly recommended, project-based guide specifically for beginners to learn web development using the Django framework.",
+      "relevance_score": 1.0,
+      "author": "William S. Vincent",
+      "level": "Beginner",
+      "source_domain": "djangoforbeginners.com"
+    },
+    {
+      "title": "Flask Web Development: Developing Web Applications with Python",
+      "type": "Book",
+      "url": "https://www.oreilly.com/library/view/flask-web-development/9781491948732/",
+      "description": "The definitive guide to learning Flask, covering everything from basic routing to database integration and deployment for web applications.",
+      "relevance_score": 1.0,
+      "author": "Miguel Grinberg",
+      "level": "Beginner",
+      "source_domain": "oreilly.com"
+    },
+    {
+      "title": "Think Python: How to Think Like a Computer Scientist",
+      "type": "Book",
+      "url": "https://greenteapress.com/wp/think-python-2e/",
+      "description": "Focuses on fundamental programming concepts and problem-solving using Python, making it an excellent resource for building a strong foundation. Available for free online.",
+      "relevance_score": 1.0,
+      "author": "Allen B. Downey",
+      "level": "Beginner",
+      "source_domain": "greenteapress.com"
+    },
+    {
+      "title": "Python for Everybody: Exploring Data in Python 3",
+      "type": "Book",
+      "url": "https://www.py4e.com/book",
+      "description": "A comprehensive introduction to Python, often used in university courses, with a free online book and accompanying course materials to learn core programming.",
+      "relevance_score": 1.0,
+      "author": "Charles R. Severance",
+      "level": "Beginner",
+      "source_domain": "py4e.com"
+    },
+    {
+      "title": "Hello Web App: Learn Python & Django From Scratch",
+      "type": "Book",
+      "url": "https://hellowebbooks.com/webapp/",
+      "description": "A friendly, project-based introduction to web development with Python and Django, focusing on getting a simple app live quickly.",
+      "relevance_score": 0.98,
+      "author": "Tracy Osborn",
+      "level": "Beginner",
+      "source_domain": "hellowebbooks.com"
+    },
+    {
+      "title": "Python Programming for the Absolute Beginner, 3rd Edition",
+      "type": "Book",
+      "url": "https://www.amazon.com/Python-Programming-Absolute-Beginner-3rd/dp/1435455002/",
+      "description": "A gentle introduction to programming concepts using Python, ideal for those with no prior coding experience.",
+      "relevance_score": 0.96,
+      "author": "Michael Dawson",
+      "level": "Beginner",
+      "source_domain": "amazon.com"
+    },
+    {
+      "title": "A Smarter Way to Learn Python",
+      "type": "Book",
+      "url": "https://www.asmarterwaytolearn.com/python/index.html",
+      "description": "Focuses on a unique method of learning through frequent, short exercises to reinforce concepts and build muscle memory for Python programming.",
+      "relevance_score": 0.95,
+      "author": "Mark Myers",
+      "level": "Beginner",
+      "source_domain": "asmarterwaytolearn.com"
+    },
+    {
+      "title": "Grokking Algorithms",
+      "type": "Book",
+      "url": "https://www.manning.com/books/grokking-algorithms",
+      "description": "An illustrated guide to common algorithms and data structures, essential for problem-solving in any programming field, including web development.",
+      "relevance_score": 0.92,
+      "author": "Aditya Bhargava",
+      "level": "Beginner",
+      "source_domain": "manning.com"
+    },
+    {
+      "title": "Two Scoops of Django: Best Practices for Django 3.x",
+      "type": "Book",
+      "url": "https://www.twoscoopspress.com/products/two-scoops-of-django-3-x",
+      "description": "A highly regarded guide to Django best practices, project structure, and deployment, essential for building scalable and maintainable applications.",
+      "relevance_score": 0.8,
+      "author": "Daniel Roy Greenfeld, Audrey Roy Greenfeld",
+      "level": "Intermediate",
+      "source_domain": "twoscoopspress.com"
+    },
+    {
+      "title": "The Pragmatic Programmer: Your Journey To Mastery, 20th Anniversary Edition",
+      "type": "Book",
+      "url": "https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/",
+      "description": "Offers timeless advice on software development practices, personal responsibility, and continuous learning, applicable to all developers.",
+      "relevance_score": 0.7,
+      "author": "Andrew Hunt, David Thomas",
+      "level": "Intermediate",
+      "source_domain": "pragprog.com"
+    }
+  ],
+  "career::Python Web Developer developer career path job roles salary roadmap::Beginner": [
+    {
+      "title": "Junior Python Web Developer",
+      "type": "Career",
+      "url": "https://www.linkedin.com/jobs/search?keywords=Junior%20Python%20Web%20Developer",
+      "description": "This entry-level role focuses on building and maintaining basic web applications using Python frameworks like Flask or Django. Responsibilities include writing clean, testable code, integrating with databases, and implementing user authentication under supervision.",
+      "relevance_score": 1.0,
+      "level": "Entry",
+      "author": "$65,000\u2013$90,000 / year",
+      "duration": "0-2 years",
+      "skills": [
+        "Python Fundamentals",
+        "Flask/Django Basics",
+        "HTML/CSS",
+        "SQL (PostgreSQL/MySQL)"
+      ],
+      "certifications": [
+        "PCAP \u2013 Certified Associate in Python Programming"
+      ],
+      "source_domain": "linkedin.com"
+    },
+    {
+      "title": "Python Career Roadmap: Jobs and Levels Guide",
+      "type": "Career",
+      "url": "https://www.coursera.org/resources/job-leveling-matrix-for-python-career-pathways",
+      "description": "A comprehensive resource detailing various career paths for Python developers, including web development, data science, and DevOps, with insights into job roles, required skills, and salary expectations at different experience levels.",
+      "relevance_score": 1.0,
+      "level": "Entry",
+      "author": "Coursera",
+      "duration": "N/A (reference guide)",
+      "skills": [
+        "Python",
+        "Web Development",
+        "Data Science",
+        "DevOps",
+        "MLOps"
+      ],
+      "certifications": [],
+      "source_domain": "coursera.org"
+    }
+  ]
+}
