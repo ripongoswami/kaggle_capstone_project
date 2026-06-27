@@ -101,8 +101,10 @@ export default function OnboardingPage() {
     setCompletedAgents([]);
 
     try {
+      const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+      
       // Step 1: Planner Agent
-      const plannerRes = await fetch("/api/roadmap/step/planner", {
+      const plannerRes = await fetch(`${API_BASE}/api/roadmap/step/planner`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -117,7 +119,7 @@ export default function OnboardingPage() {
       });
 
       if (!plannerRes.ok) {
-        const data = await plannerRes.json();
+        const data = await plannerRes.json().catch(() => ({}));
         throw new Error(data.detail || "Planner Agent failed to generate roadmap.");
       }
 
@@ -129,7 +131,7 @@ export default function OnboardingPage() {
       setActiveAgentIdx(1);
 
       // Step 2: Tutor Agent
-      const tutorRes = await fetch("/api/roadmap/step/tutor", {
+      const tutorRes = await fetch(`${API_BASE}/api/roadmap/step/tutor`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -139,7 +141,7 @@ export default function OnboardingPage() {
       });
 
       if (!tutorRes.ok) {
-        const data = await tutorRes.json();
+        const data = await tutorRes.json().catch(() => ({}));
         throw new Error(data.detail || "Tutor Agent failed to generate study notes.");
       }
 
@@ -147,7 +149,7 @@ export default function OnboardingPage() {
       setActiveAgentIdx(2);
 
       // Step 3: Quiz Agent
-      const quizRes = await fetch("/api/roadmap/step/quiz", {
+      const quizRes = await fetch(`${API_BASE}/api/roadmap/step/quiz`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -157,7 +159,7 @@ export default function OnboardingPage() {
       });
 
       if (!quizRes.ok) {
-        const data = await quizRes.json();
+        const data = await quizRes.json().catch(() => ({}));
         throw new Error(data.detail || "Quiz Agent failed to generate quiz questions.");
       }
 
@@ -165,7 +167,7 @@ export default function OnboardingPage() {
       setActiveAgentIdx(3);
 
       // Step 4: Research Agent
-      const researchRes = await fetch("/api/roadmap/step/research", {
+      const researchRes = await fetch(`${API_BASE}/api/roadmap/step/research`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -175,7 +177,7 @@ export default function OnboardingPage() {
       });
 
       if (!researchRes.ok) {
-        const data = await researchRes.json();
+        const data = await researchRes.json().catch(() => ({}));
         throw new Error(data.detail || "Research Agent failed to discover resources.");
       }
 
